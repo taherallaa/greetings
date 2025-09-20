@@ -33,6 +33,7 @@ func randFormat() string {
 		"Hi, %s. Welcome!",
 		"Great to see you, %s!",
 		"Hail, %s!  Well met!",
+		"Welcome to %s!",
 	}
 	idx := rand.Intn(len(formats))
 	return formats[idx]
